@@ -1,0 +1,18 @@
+﻿# core exclusions
+runtime/
+engine/
+*.env
+*.log
+
+# secrets
+*.pem
+*.key
+*.private*
+
+# environment
+.venv/
+.wsl_ots_venv/
+__pycache__/
+
+# local
+archive/

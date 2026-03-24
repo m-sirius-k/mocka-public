@@ -1,0 +1,49 @@
+﻿name: phase18-determinism-matrix
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  determinism:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ['3.12', '3.13']
+
+    defaults:
+      run:
+        working-directory: ${{ github.workspace }}
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Debug Workspace
+      run: |
+        echo "=== PWD ==="
+        pwd
+        echo "=== ROOT LIST ==="
+        ls -R
+
+    - name: Show Environment
+      run: |
+        echo "=== PYTHON ==="
+        python --version
+        echo "=== PLATFORM ==="
+        python -c "import platform; print(platform.platform())"
+
+    - name: Verify Determinism (Canonical)
+      run: |
+        echo "=== START VERIFY ==="
+        python verify_chain.py
+        echo "=== EXIT CODE: $? ==="
+        echo "=== END VERIFY ==="
