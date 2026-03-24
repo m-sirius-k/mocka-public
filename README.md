@@ -1,4 +1,9 @@
-﻿# MoCKA (Model of Cybernetic Knowledge Architecture)
+﻿## Verification Seal
+
+CHAIN VERIFIED 44 events  
+See: docs/PROOF.md
+
+---# MoCKA (Model of Cybernetic Knowledge Architecture)
 
 ## Overview
 
@@ -52,3 +57,4 @@ Phase 22 — Verifiable Civilization
 ## Proof
 
 See: docs/PROOF.md
+
