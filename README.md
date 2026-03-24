@@ -1,60 +1,108 @@
-﻿## Verification Seal
+﻿# MoCKA (Model of Cybernetic Knowledge Architecture)
+
+## Verification Seal
 
 CHAIN VERIFIED 44 events  
+Reproducible verification available  
 See: docs/PROOF.md
 
----# MoCKA (Model of Cybernetic Knowledge Architecture)
+---
 
 ## Overview
 
 MoCKA is a verifiable architecture for autonomous knowledge civilization.
 
-This repository exposes:
+Unlike conventional AI systems, MoCKA is designed not only to produce outputs,
+but to preserve, validate, and evolve knowledge through institutional structures.
+
+This repository represents the public verification layer of the system.
+
+---
+
+## Core Principles
+
+- Verifiability over performance
+- Reproducibility over opacity
+- Governance over autonomy
+- Structure over heuristics
+
+---
+
+## What This Repository Provides
 
 - Governance principles
 - System architecture
 - Interface schemas
-- Verification methods
+- Verification methodology
 
 ---
 
-## What is NOT included
+## What Is NOT Included
 
 - Core runtime logic
 - Private keys
 - Internal state
 - Execution environment
 
+These elements are intentionally excluded to preserve system integrity and security.
+
 ---
 
 ## Trust Model
 
-This repository represents the public layer of MoCKA.
+MoCKA establishes trust through:
 
-Authenticity is verified through:
+- Cryptographic verification (public key signatures)
+- Deterministic reproducibility
+- Transparent governance structure
 
-- Public key signatures
-- Reproducible structures
-- Transparent governance
-
----
-
-## Structure
-
-- docs/ : Architecture and governance
-- schemas/ : Interface definitions
-- keys/ : Public verification key
-- workflows/ : CI integrity checks
+Trust is not assumed — it is continuously validated.
 
 ---
 
-## Status
+## System Structure
 
-Phase 22 — Verifiable Civilization
+- docs/  
+  Architecture, governance, and phase evolution records  
+
+- schemas/  
+  Interface definitions and shared data formats  
+
+- keys/  
+  Public verification key (for signature validation)  
+
+- .github/workflows/  
+  Continuous verification and integrity checks  
 
 ---
 
-## Proof
+## Proof of Verification
+
+This system can be independently verified.
+
+Procedure:
+
+1. Prepare a valid ledger
+2. Run verification:
+
+`ash
+python verify_chain.py
+
+Expected output:
+
+CHAIN VERIFIED 44 events
 
 See: docs/PROOF.md
+
+Status
+
+Phase 22 — Verifiable Civilization
+Phase 23 — Competitive Evolution
+Phase 25 — External Verification Integration (in progress)
+
+Definition
+
+MoCKA is not an AI application.
+
+It is a verifiable knowledge civilization system.
 
