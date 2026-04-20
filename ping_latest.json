@@ -1,0 +1,16 @@
+{
+  "H": "MOCKA_DNA_v2",
+  "G": 5.0,
+  "C": "STRICT",
+  "P": "SESSION_START_LOCK",
+  "A": "Z-Axis=0.819 / INCIDENT=【問題動作検知】APIトークン枯渇した。なぜこんなに消費する",
+  "ESSENCE_SUMMARY": {
+    "INCIDENT": "【問題動作検知】APIトークン枯渇した。なぜこんなに消費するのか。廃止して直接注入に移行する\n【インシデント】INCIDENT: Ollama暴走によるリソース枯渇・半日損失 → 【原因】MoCKA-START.batにessence_trigger.py・ollama serveを無条件毎回実行として組み込んだ結果、PC全体のCPU100%・キ → 【再発防止】要分析\n【関連ツール】ping_generator, events.csv, app.py, ping_latest, essence_classifier\n[軸③否定検知] 否定パターン3件検出 → AI動作問題として記録\n[軸④経緯分析] インシデント経緯25件抽出済み",
+    "PHILOSOPHY": "AIを信じるな、システムで縛れ。失敗は資産になる。 疑問は制度改善のトリガー: APIトークン枯渇した。なぜこんなに消費するのか。廃止して直接注入に移行する 不要な複雑性は廃止し、シンプルな直接接続を優先する。 インシデントから学習し制度化する。",
+    "OPERATION": "実行環境: mcp, curl, api, if, json\n[最新操作] AI接続能力マップ確定 — 全5AI接続テスト完了 → 全5AI接続テスト完了。結果: Claude=MCP直結/Perplexity=HTTP取得成功/GPT・Gemini・Copilot=外部HTTP不可。MoCKA Agent APIに自律接続できる\n[使用ツール] ping_generator → events.csv → app.py → ping_latest\n[軸②キーワード] code:mcp,curl,api tool:ping_generator,events.csv,app.py"
+  },
+  "essence_updated": true,
+  "ngrok_online": false,
+  "NGROK": false,
+  "generated_at": "2026-04-20T09:09:50.518732"
+}
