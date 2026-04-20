@@ -9,8 +9,36 @@
     "PHILOSOPHY": "AIを信じるな、システムで縛れ。失敗は資産になる。 疑問は制度改善のトリガー: APIトークン枯渇した。なぜこんなに消費するのか。廃止して直接注入に移行する 不要な複雑性は廃止し、シンプルな直接接続を優先する。 インシデントから学習し制度化する。",
     "OPERATION": "実行環境: mcp, curl, api, if, json\n[最新操作] AI接続能力マップ確定 — 全5AI接続テスト完了 → 全5AI接続テスト完了。結果: Claude=MCP直結/Perplexity=HTTP取得成功/GPT・Gemini・Copilot=外部HTTP不可。MoCKA Agent APIに自律接続できる\n[使用ツール] ping_generator → events.csv → app.py → ping_latest\n[軸②キーワード] code:mcp,curl,api tool:ping_generator,events.csv,app.py"
   },
-  "essence_updated": true,
-  "ngrok_online": false,
-  "NGROK": false,
-  "generated_at": "2026-04-20T09:09:50.518732"
+  "essence_updated": false,
+  "ngrok_online": true,
+  "NGROK": true,
+  "current_phase": "Phase 2進行中",
+  "top_todos": [
+    {
+      "id": "TODO_049",
+      "title": "論文完全版生成 — 全ページ・全図形・バックデータ付表（2026-04-24締切）",
+      "priority": "最高"
+    },
+    {
+      "id": "TODO_050",
+      "title": "論文バックボーン補足資料3点セット生成（Appendix A/B/C）",
+      "priority": "最高"
+    },
+    {
+      "id": "TODO_048",
+      "title": "Gemini配信打開策実装 — /gemini/briefing + 報告受付フォーム",
+      "priority": "高"
+    },
+    {
+      "id": "TODO_022",
+      "title": "essence疎通確認",
+      "priority": "中"
+    },
+    {
+      "id": "TODO_035",
+      "title": "他AI向けAPIアクセス仕様書作成 — ngrokヘッダー必須の明文化",
+      "priority": "中"
+    }
+  ],
+  "generated_at": "2026-04-20T09:57:57.439586"
 }
