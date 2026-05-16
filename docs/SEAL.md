@@ -1,4 +1,4 @@
-﻿# SEAL
+# SEAL
 
 CHAIN VERIFIED 44 events
 

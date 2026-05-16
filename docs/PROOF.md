@@ -1,4 +1,4 @@
-﻿# PROOF OF VERIFICATION
+# PROOF OF VERIFICATION
 
 ## 1. Objective
 

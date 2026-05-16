@@ -1,4 +1,4 @@
-﻿# Shadow Movement Principle
+# Shadow Movement Principle
 
 ## English
 
